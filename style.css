@@ -1,11 +1,15 @@
-*/ Global*/ 
 @import url(./media.css);
 
 :root {
   --primaryColor: red;
   --SecondaryColor: yellow;
   --highlight: blue;
+
+  --spacerS: 0.5rem;
+  --spacerM: 1rem;
 }
+/* Global */
+
 * {
   margin: 0;
   padding: O;
@@ -16,11 +20,15 @@ body {
   background-color: #ccc6;
   font-size: 1.3 rem;
 }
+/* Nav */
+/* Main */
+/* Aside */
 
 li {
 }
 a {
-  color: var(SecondaryColor);
+  color: var(--SecondaryColor);
+  text-decoration: none;
 }
 a:hover {
   color: var(--highlight);
@@ -30,4 +38,10 @@ main {
   color: var(--SecondaryColor);
   width: 80%;
   margin: auto;
+}
+p {
+  color: var(--highlight);
+}
+:hover {
+  color: var(--SecondaryColor);
 }
