@@ -1,0 +1,30 @@
+*/ Global*/ :root {
+  --primaryColor: red;
+  --SecondaryColor: yellow;
+  --highlight: blue;
+}
+* {
+  margin: 0;
+  padding: O;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ccc6;
+  font-size: 1.3 rem;
+}
+
+li {
+}
+a {
+  color: var(SecondaryColor);
+}
+a:hover {
+  color: var(--highlight);
+}
+main {
+  background-color: var(--primaryColor);
+  color: var(--SecondaryColor);
+  width: 80%;
+  margin: auto;
+}
