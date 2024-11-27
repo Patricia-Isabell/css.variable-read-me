@@ -1,4 +1,7 @@
-*/ Global*/ :root {
+*/ Global*/ 
+@import url(./media.css);
+
+:root {
   --primaryColor: red;
   --SecondaryColor: yellow;
   --highlight: blue;
